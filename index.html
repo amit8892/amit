@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        height: 500px;
+        font-family: 'Pattaya', sans-serif;
+        color: rgb(14, 11, 11);
+        background-repeat: no-repeat;
+        background-color: rgb(240, 230, 175);
+
+
+    }
+
+    .header {
+        background-color: rgb(5, 7, 7);
+
+    }
+
+
+    .mid {
+        padding: 18px;
+        display: block;
+        width: 33%;
+        margin: 0px auto;
+        color: rgb(66, 226, 93);
+
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 15px;
+        font-family: cursive;
+    }
+
+    .navbar li a {
+        color: rgb(248, 244, 7);
+        text-decoration: none;
+        padding: 34px 23px;
+        font-family: 'Pattaya', sans-serif;
+    }
+
+    .navbar li a:hover {
+        color: rgb(235, 77, 77);
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+    }
+
+    .about img {
+        margin: 0px;
+        width: 100%;
+        height: 400px;
+        
+    }
+
+
+     .container img {
+        float: left;
+        height: 200px;
+        width: 250px;
+        margin: 15px;
+        box-shadow: 10px 10px 5px black;
+    }
+
+     .container h2 {
+        text-align: center;
+        text-decoration: underline;
+        flex-wrap: wrap;
+
+    }
+
+    .container p {
+        line-height: 25px;
+        margin: 15px;
+        display: block;
+        flex-wrap: wrap;
+
+    }
+
+    .container {
+        background-color: rgb(240, 230, 175);
+        border: 2px solid black;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    footer {
+        background-color: rgb(8, 8, 8);
+        color: white;
+        text-align: center;
+        height: 39px;
+        padding: 13px;
+    }
+
+    h3 {
+        margin: 10px;
+        padding: 10px;
+        text-decoration: underline;
+
+    }
+
+    #map {
+        margin-left: 75px;
+        border-radius: 5px solid black;
+    }
+
+    #contact {
+        background-color: rgb(240, 230, 175);
+       display: flex;
+       flex-direction: row; 
+    } 
+
+    #con{
+       margin: 8px;
+   }
+</style>
+
+<body>
+    <header class="header">
+
+        <!-- for navigaton bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Skill</a></li>
+                <li><a href="#">Projects</a></li>
+            </ul>
+        </div>
+
+    </header>
+    
+    <div class="about">
+        <img src="pro/slide.jpg" alt="">
+    </div>
+
+    <div class="container">
+        <div>
+            <img src="pro/me.jpeg" alt="">
+
+
+        </div>
+        <div>
+            <h2>About Me</h2>
+
+            <p>
+                I am <b>Amit Raj.</b> I did my Graduation in C.S.E 2018 form<b>S.I.E.T. collage,Tumkuru,Karnataka.</b>
+                Bascially I am belongs to Patna. My skill is <b>Html,css,Js,php and C langauge.</b> I did project my
+                final year that is
+                <b> "Smart Monitering Dumping System."</b>which is selcted for state level seminar which is conduct
+                by<b> "karnataka State Councile for Science
+                    and Technolgy(K.S.C.T)."</b>
+                I am Fresher in I.T industry and i have 15th month expreience in other sector.I want to be a full Stack
+                devloper.
+                My strenght is hardWorking, Friendly easily to other person.
+
+            </p>
+
+        </div>
+    </div>
+    
+    
+    <h3 style="text-align: center;"> Contact With us</h3>
+    <section id="contact">
+        
+    <iframe id="con" src="https://docs.google.com/forms/d/e/1FAIpQLSd6JXaxcOT3JcpUVeq__H4blnWUihxl_uJvQ1BEaCpDdDgVug/viewform?embedded=true" width="640" height="508" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3597.4424862407277!2d85.11806071433656!3d25.623435820564765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDM3JzI0LjQiTiA4NcKwMDcnMTIuOSJF!5e0!3m2!1sen!2sin!4v1624477599282!5m2!1sen!2sin" width="600" height="450px"  allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+    <footer>
+        <div>
+
+            <p>Protfolio @amit || 2021</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
